@@ -5,7 +5,4 @@ describe('Client Test', () => {
     test('HandleSubmit to be defined', () => {
         expect(handleSubmit()).toBeDefined()
     })
-    test('HandleSubmit to be defined', () => {
-        expect(handleSubmit()).toBeDefined()
-    })
 })
