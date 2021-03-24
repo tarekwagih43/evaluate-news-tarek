@@ -33,8 +33,7 @@ module.exports = {
         minimizer: [
             new CssMinimizerPlugin({
                 test: /\.scss$/,
-                exclude: /node_modules/,
-                loader: ["style-loader", "css-loader", "sass-loader"]
+                exclude: /node_modules/
             }),
         ],
     }
